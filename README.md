@@ -4,6 +4,7 @@ An interactive timeline with timevis package and shiny
 WARNING: Make sure that all your files are in the same folder!
 
 ## Base TimeLine file
+```{r}
 events <- data.frame(
   id      = 1:4,
   content = c("Reunião Prof Telmo Nunes", "Evento Meetup",
@@ -13,6 +14,7 @@ events <- data.frame(
 )
 write.csv(events, "RLadiesEvents")
 read.csv("RLadiesEvents", row.names = 1)
+```
 
 ## Shiny UI
 This Shiny App uses CSS comands to some of the layouts
