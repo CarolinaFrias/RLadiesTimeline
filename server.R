@@ -2,7 +2,6 @@ library(shiny)
 library(timevis)
 library(uuid)
 
-# Define server logic required to draw a histogram
 shinyServer(function(input, output,session) {
   observeEvent(input$add, {
     value <- input$event
