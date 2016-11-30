@@ -2,8 +2,6 @@ library(shiny)
 library(timevis)
 library(uuid)
 
-setwd("C:/Users/carolina/Desktop/RStudio/TimeLineTemplate")
-
 shinyUI(fluidPage(
   tags$head(
     tags$link(rel = "stylesheet", type = "text/css", href = "rladiestimeline.css")

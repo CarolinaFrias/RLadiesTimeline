@@ -2,8 +2,6 @@ library(shiny)
 library(timevis)
 library(uuid)
 
-setwd("C:/Users/carolina/Desktop/RStudio/TimeLineTemplate")
-
 # Define server logic required to draw a histogram
 shinyServer(function(input, output,session) {
   observeEvent(input$add, {
